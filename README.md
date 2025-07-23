@@ -2,14 +2,12 @@
 
 This project performs end-to-end data analytics on Uber trip data using modern cloud and data engineering tools. The pipeline ingests, transforms, analyzes, and visualizes large-scale trip records to derive insights into ridership behavior, revenue trends, and operational efficiency.
 
-## 🚀 Features
+---
 
-- ✅ Raw data ingestion and processing via **GCP Storage** and **Compute Engine**
-- 🔁 ETL pipeline orchestration using **Mage (open-source Data Pipeline Tool)**
-- 🧠 Data transformation and analysis with **Python** and **BigQuery**
-- 📊 Interactive dashboard creation with **Looker Studio**
-- ⚡ Scalable architecture capable of handling 1M+ trip records
-- 📈 Insights on Vendor performance, fare patterns, tip behavior, etc.
+## 🚀 Project Highlights
+
+- 🛠️ **Designed and deployed** a cloud-based ETL pipeline to ingest, transform, and analyze **100K+ Uber trip records** using GCP Storage, Python, Mage, and BigQuery — enabling scalable data processing in minutes.
+- 📊 **Created dynamic dashboards** in Looker Studio to uncover trends in **trip volume**, **peak hours**, and **payment behavior**, supporting data-driven decisions with real-time insights.
 
 ---
 
@@ -50,12 +48,5 @@ This project performs end-to-end data analytics on Uber trip data using modern c
 
 ---
 
-## 📊 Sample Insights
-
-- **VendorID 2** generated **15% higher average fare** than VendorID 1.
-- **Credit Card users** tipped **23% more** on average than other payment methods.
-- **Evening pickups (5–8 PM)** had the **highest ride frequency** in downtown zones.
-
----
 
 Here is the project: https://lookerstudio.google.com/reporting/e4ca3c55-fae0-420e-ae22-b5b1119ec387
